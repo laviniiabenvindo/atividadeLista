@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap');
+:root{
+    /* ## Colors */
+
+    /* ### Primary */
+
+    --Desaturated-Dark-Cyan: hsl(180, 29%, 50%);
+
+    /* ### Neutral */
+    /* (Background) */
+    --Light-Grayish-Cyan: hsl(180, 52%, 96%);
+    /* (Filter Tablets) */
+    --Light-Grayish-Cyan: hsl(180, 31%, 95%);
+    --Dark-Grayish-Cyan: hsl(180, 8%, 52%);
+    --Very-Dark-Grayish-Cyan: hsl(180, 14%, 20%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--Light-Grayish-Cyan);
+    font-family: 'League Spartan', sans-serif;
+}
+header{
+    background-color: var(--Desaturated-Dark-Cyan);
+}
+.img-cabecalho{
+    width: 100vw;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-img{
+    padding: 10px 0;
+}
+main .box-conteiner2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    margin: 20px ;
+    width: 800px;
+    height: 120px;
+    background-color: #FFF;
+    box-shadow: 0px 10px 10px 0px hsl(180, 36%, 85%);
+}
+main .box-conteiner{
+    border-radius: 5px;
+    margin-top: 50px;
+    width: 800px;
+    height: 120px;
+    background-color: #FFF;
+    border-left: 5px solid var(--Desaturated-Dark-Cyan);
+    box-shadow: 0px 10px 10px 0px hsl(180, 36%, 85%);
+}
+main .subBox{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+main .subBox2{
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+main .subBox-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+main .subBox-item{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+main .subBox-item p{
+    font-weight: 600;
+    color:hsl(180, 57%, 43%);
+}
+main .subBox-item .fea{
+    border: none;
+    font-size: 12px;
+    border-radius: 15px;
+    color: #FFF;
+    padding: 7px;
+    background-color: #000;
+}
+main .subBox-item .new{
+    border: none;
+    font-size: 12px;
+    border-radius: 15px;
+    color: #FFF;
+    padding: 7px;
+    background-color:hsl(180, 57%, 43%);
+}
+main .subBox-img{
+    gap: 20px;
+    display: flex;
+}
+main .subBox-data{
+    display:flex;
+    gap: 10px;
+    color: var(--Dark-Grayish-Cyan);
+}
+main .status{
+    display: flex;
+    gap: 10px;
+}
+main .status .status-item{
+    padding: 5px;
+    color:hsl(180, 57%, 43%);
+    background-color: var(--Light-Grayish-Cyan);
+}
